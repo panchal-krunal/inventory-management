@@ -12,3 +12,20 @@
 * immer
 * nanoid
 
+## Folder structure
+
+* /src - here all source code resides
+* /src/containers - contains all forms
+* /src/navigation - contains routing
+* /src/pages - contains individual pages
+* /src/screens - contains all screens
+* /src/redux - entire redux
+* /src/redux/actions - contains all actions
+* /src/redux/reducers - contains all reducers
+
+## Steps to run project
+* yarn
+* yarn start
+
+
+

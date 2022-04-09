@@ -1,10 +1,9 @@
 import React from 'react'
+import InventoryTypePage from '../pages/InventoryTypePage'
 
 const ManageTypeScreen = () => {
     return (
-        <div>
-            Type Screen
-        </div>
+        <InventoryTypePage />
     )
 }
 

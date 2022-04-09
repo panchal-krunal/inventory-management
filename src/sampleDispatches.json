@@ -1,0 +1,24 @@
+[
+    {
+        "type": "ADD_INVENTORY_TYPE",
+        "payload": {
+            "typeId": "123"
+        }
+    },
+    {
+        "type": "ADD_OBJECT_TYPE",
+        "payload": {
+            "typeId": "123",
+            "typeName": "jcb"
+        }
+    },
+    {
+        "type": "ADD_FIELD",
+        "payload": {
+            "typeId": "123",
+            "fieldId": "uuX123",
+            "fieldName": "Model",
+            "fieldType": "TEXT",
+        }
+    }
+]

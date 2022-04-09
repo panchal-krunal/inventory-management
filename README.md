@@ -7,4 +7,8 @@
 * redux-thunk
 * redux-persist
 * react-router-dom
+* react-bootstrap
+* bootstrap
+* immer
+* nanoid
 

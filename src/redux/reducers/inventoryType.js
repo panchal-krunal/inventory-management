@@ -11,9 +11,9 @@ import produce from 'immer'
 
 /* structure of type data 
 {
-    'uniqueId':{
-        id:'', // will be equal to uniqueId
-        fields:{
+    'typeId':{
+        typeId:'', // will be equal to uniqueId
+        typeFields:{
             'uniqueId':{
                 fieldName:'',
                 fieldType:''
@@ -23,9 +23,8 @@ import produce from 'immer'
                 fieldType:''
             }
         },
-        objectType:'',
-        objectName:'',
-        objectTitleFieldId:<uniqueFieldId>
+        typeName:'',
+        typeTitleFieldId:<uniqueFieldId>
     }
 }
 */

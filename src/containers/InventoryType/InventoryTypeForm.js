@@ -42,7 +42,8 @@ const InventoryTypeForm = ({
         return (
             <Col className='d-flex flex-column'>
                 <FormLabel>Object Title</FormLabel>
-                <select onChange={e => onTypeTitleFieldChange(typeId, e.target.value)}>
+                <select onChange={e => onTypeTitleFieldChange(typeId, e.target.value)} value={type.typeTitleFieldId}>
+                    <option value={0} >{'Select Title Field'}</option>
                     {
                         typeFields && Object.keys(typeFields).length > 0 &&
                         Object.keys(typeFields).map((fieldId, _) => {
@@ -100,7 +101,7 @@ const InventoryTypeForm = ({
         onAddFieldClick(fieldType, typeId)
     }
     return (
-        <Container>
+        <Container className="my-2">
             <Accordion>
                 <Accordion.Item>
                     <Accordion.Header>{type?.typeName || ''}</Accordion.Header>

@@ -28,7 +28,10 @@
 * yarn start
 
 ## Screenshots
-![Manage Types] (https://github.com/panchal-krunal/inventory-management/master/screenshots/1.png)
+Manage Types - (https://github.com/panchal-krunal/inventory-management/blob/master/screenshots/1.png)
+Manage Types Collapsible - (https://github.com/panchal-krunal/inventory-management/blob/master/screenshots/4.png)
+Inventory for Specific Type - (https://github.com/panchal-krunal/inventory-management/blob/master/screenshots/2.png)
+Inventory Add with Dropdown - (https://github.com/panchal-krunal/inventory-management/blob/master/screenshots/3.png)
 
 
 
